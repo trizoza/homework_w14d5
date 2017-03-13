@@ -1,0 +1,29 @@
+body {
+  box-sizing: border-box;
+}
+
+.board {
+  width: 760px;
+  height: 450px;
+}
+
+.poke_pic {
+  width: 150px;
+  height: 150px;
+}
+
+.true {
+  width: 150px;
+  height: 150px;
+  background-color: green;
+}
+
+.false {
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+}
+
+.poke_pic:hover, .true:hover, .false:hover {
+  background-color: lightgray;
+}
